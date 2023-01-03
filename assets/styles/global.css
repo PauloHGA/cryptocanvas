@@ -1,0 +1,33 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(06, 06, 06), rgb(12, 12, 12), rgb(18, 18, 18), rgb(24, 24, 24), rgb(38, 38, 38));
+
+}
+
+.content {
+    margin: .5rem auto;
+    margin-bottom: 0;
+    padding: 5px;
+    padding-bottom: 0;
+    min-width: 100%;
+    min-height: 100vh;
+    color: rgb( 255, 255, 255);
+
+}
+
+
+@media screen and (min-width: 992px){
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        margin-bottom: 0;
+        border-radius: 1rem ;
+    }
+}
